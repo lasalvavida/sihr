@@ -1,0 +1,30 @@
+{
+  "name": "sihr",
+  "version": "1.0.0",
+  "description": "A Node.js module that uses byte pair encoding to compress UTF-8 strings.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine JASMINE_CONFIG_PATH=jasmine.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lasalvavida/sihr.git"
+  },
+  "keywords": [
+    "string",
+    "compression",
+    "small",
+    "dictionary",
+    "encode",
+    "compress"
+  ],
+  "author": "Rob Taglang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lasalvavida/sihr/issues"
+  },
+  "homepage": "https://github.com/lasalvavida/sihr#readme",
+  "devDependencies": {
+    "jasmine": "^2.5.2"
+  }
+}
