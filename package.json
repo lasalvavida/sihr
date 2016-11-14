@@ -4,6 +4,7 @@
   "description": "A Node.js module that uses byte pair encoding to compress UTF-8 strings.",
   "main": "index.js",
   "scripts": {
+    "jshint": "jshint **/*.js",
     "test": "jasmine JASMINE_CONFIG_PATH=jasmine.json"
   },
   "repository": {
@@ -25,6 +26,10 @@
   },
   "homepage": "https://github.com/lasalvavida/sihr#readme",
   "devDependencies": {
-    "jasmine": "^2.5.2"
+    "jasmine": "2.5.2",
+    "jshint": "2.9.4"
+  },
+  "jshintConfig": {
+    "node": true
   }
 }
