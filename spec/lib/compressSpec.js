@@ -9,16 +9,23 @@ describe('compress', function() {
   });
 
   it('compresses a compressible string', function() {
-    var compressible = 'abababab';
+    var compressible = 'ababababcdcdcdcd';
     var encoded = compress(compressible);
     var aCharCode = compressible.charCodeAt(0);
     var bCharCode = compressible.charCodeAt(1);
+    var cCharCode = compressible.charCodeAt(8);
+    var dCharCode = compressible.charCodeAt(9);
     var expectEncoded = new Buffer(new Uint8Array([
       255,
       0,
       aCharCode,
       bCharCode,
-      0,0,0
+      0,0,0,
+      255,
+      1,
+      cCharCode,
+      dCharCode,
+      1,1,1
     ]).buffer)
     expect(encoded).toEqual(expectEncoded);
   });

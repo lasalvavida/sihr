@@ -16,7 +16,7 @@ Sihr looks for pairs of bytes in your input data that are repeated and encodes d
 ## Usage
 ### Get Sihr on npm
 ```
-npm install Sihr
+npm install sihr
 ```
 
 ### Compress string -> buffer
