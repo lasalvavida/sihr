@@ -1,6 +1,6 @@
 {
   "name": "sihr",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "A Node.js module that uses byte pair encoding to compress UTF-8 strings.",
   "main": "index.js",
   "scripts": {
